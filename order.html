@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Order - Super Cut</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Super Cut</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="order.html">Book Order</a>
+            <a href="admin.html">Admin</a>
+        </nav>
+    </header>
+    <section class="order-form">
+        <h2>Book Your Order</h2>
+        <form id="orderForm">
+            <label>Name:</label>
+            <input type="text" id="name" required>
+            <label>Phone:</label>
+            <input type="tel" id="phone" required>
+            <label>Hair Style:</label>
+            <select id="style" required>
+                <option value="style1">Style 1</option>
+                <option value="style2">Style 2</option>
+                <option value="style3">Style 3</option>
+            </select>
+            <label>Date:</label>
+            <input type="date" id="date" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
